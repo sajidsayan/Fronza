@@ -1,1 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <title>Fronza – Premium Website Making & Paid Web Services</title>
+  <meta name="description" content="Fronza offers premium website making, paid website solutions, and digital services with a futuristic edge. Get your Fronza site today!" />
+  <meta name="author" content="Fronza" />
+  <meta name="language" content="en-BD" />
+  <meta name="robots" content="index, follow" />
+  <meta name="revisit-after" content="1 days" />
+  <meta name="rating" content="general" />
+  <meta name="distribution" content="global" />
+  <meta name="target" content="all" />
+  <meta name="audience" content="all" />
+  <meta name="theme-color" content="#00C9FF" />
+
+  <meta name="keywords" content="Fronza, fronza, frona, Fronza Bangladesh, Bangla Fronza, Fronzais, Sidisdh, Floka, website maker, website making, paid website, paid website in Bangladesh, web development, website design, premium web services, futuristic web, build website, buy website, Bangla website, make website 2025, Fronza web studio, Fronza dev, Fronza team, sidisdh project, Floka web design, fronza sidisdh team, fronza website plan, premium website 2025, futuristic site, ai website making, UI website Bangla, best Bangla website, ecommerce site bangladesh, build site fronza, website creation Bangladesh, sidisdh website group, fronza bd, fronzais dev, modern ui fronza, meta site builder, Fronza header, futuristic brand site, next-gen web building, Bangladeshi web creator, Web UI builder, Fronza landing page, Fronza one page website, Fronza floka network, website with Bangla support, web hosting fronza, Fronza SEO, web tools fronza, Floka tools, Fronza engine, free vs paid website fronza, make my website fronza, sidisdh developer, Floka UX studio, fronza bangla services, Fronza pro UI, floka tech, buy website Bangladesh, web team fronza, get web design, digital site builder, paid web solution bd, meta-style site, Fronza create website, fronza product page, Bangladesh website plan, futuristic brand design, Fronza company, Fronza network, best web UI 2025, Fronza social, Sidisdh Floka" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Fronza – Premium Website Making & Paid Web Services" />
+  <meta property="og:description" content="Fronza is your trusted platform for smart, premium, and futuristic website building solutions in Bangladesh and beyond." />
+  <meta property="og:image" content="https://fronzas.vercel.app/assets/Fronza.png" />
+  <meta property="og:url" content="https://fronzas.vercel.app" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fronza – Website Creation & Paid Solutions" />
+  <meta name="twitter:description" content="Build your next-gen website with Fronza. Smart UI, Bangla support, and pro tools for premium projects." />
+  <meta name="twitter:image" content="https://fronzas.vercel.app/assets/Fronza.png" />
+
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://fronzas.vercel.app" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/Fronza.png" type="image/x-icon" />
+
+  <!-- Additional Meta -->
+  <meta name="coverage" content="Worldwide" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta http-equiv="cleartype" content="on" />
+  <meta http-equiv="content-language" content="en" />
+
+  <!-- Verification -->
+  <meta name="google-site-verification" content="YOUR_GOOGLE_CODE_HERE" />
+  <meta name="msvalidate.01" content="YOUR_BING_CODE_HERE" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html, body {
+      margin: 0; padding: 0;
+      height: 400vh; /* 4 pages tall */
+      font-family: 'Segoe UI', sans-serif;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      position: relative;
+      transition: background 1s ease;
+      background: linear-gradient(135deg, #0d1c3f, #21407a, #3566c2);
+      color: white;
+    }
+    @media (max-width: 768px) {
+      html, body {
+        height: 400vh;
+      }
+    }
+
+    /* Glowing text container */
+    .bg-glow-text {
+      position: fixed;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-weight: 700;
+      text-align: center;
+      user-select: none;
+      pointer-events: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      white-space: nowrap;
+      letter-spacing: 1px;
+      z-index: 0;
+      opacity: 1;
+      transition: opacity 0.8s ease, color 0.8s ease, text-shadow 0.8s ease, font-size 0.5s ease;
+    }
+    .bg-glow-text.hide {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    /* Text styles for each message */
+    .msg0 {
+      font-size: 4.5rem;
+      color: #00ffff;
+      text-shadow:
+        0 0 15px #00ffff,
+        0 0 30px #00e0ff,
+        0 0 45px #00c2ff,
+        0 0 60px #009eff,
+        0 0 90px #007aff;
+    }
+    .msg1 {
+      font-size: 4.5rem;
+      color: #ffb347; /* warm orange */
+      text-shadow:
+        0 0 15px #ffb347,
+        0 0 30px #ffa500,
+        0 0 45px #ff8c00,
+        0 0 60px #ff7f00,
+        0 0 90px #ff6f00;
+    }
+    .msg2 {
+      font-size: 3rem; /* smaller font */
+      color: #a0ff94; /* soft green */
+      text-shadow:
+        0 0 12px #a0ff94,
+        0 0 25px #7fff00,
+        0 0 40px #32cd32,
+        0 0 55px #228b22,
+        0 0 75px #006400;
+    }
+    .msg3 {
+      font-size: 4.5rem;
+      color: #ff6fff; /* pinkish purple */
+      text-shadow:
+        0 0 15px #ff6fff,
+        0 0 30px #ff4fff,
+        0 0 45px #ff2fff,
+        0 0 60px #ff00ff,
+        0 0 90px #cc00cc;
+    }
+
+    /* Win12 style bottom taskbar */
+    .taskbar {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      max-width: 1100px;
+      height: 60px;
+      background: rgba(0, 40, 90, 0.75);
+      backdrop-filter: blur(25px);
+      -webkit-backdrop-filter: blur(25px);
+      border-radius: 30px;
+      box-shadow:
+        0 8px 40px rgba(0, 40, 90, 0.7),
+        0 0 25px rgba(0, 80, 180, 0.9);
+      align-items: center;
+      padding: 0 30px;
+      user-select: none;
+      z-index: 1000;
+      color: #c6d9ff;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+    .logo-container img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+    .logo-container .logo-text {
+      font-size: 1.2rem;
+      user-select: none;
+      white-space: nowrap;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      color: white;
+    }
+    .logo-text .fron {
+      font-weight: 700;
+      text-shadow:
+        0 0 6px #fff,
+        0 0 12px #b8d4ff,
+        0 0 18px #7faaff;
+    }
+    .logo-text .za {
+      font-weight: 400;
+      text-transform: lowercase;
+      color: #00ffff; /* cyan */
+      text-shadow:
+        0 0 8px #00ffff,
+        0 0 14px #00dfff,
+        0 0 20px #00bfff;
+    }
+
+    .nav {
+      display: flex;
+      gap: 30px;
+      margin: 0 auto;
+      font-weight: 600;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #c6d9ff;
+    }
+
+    .nav a {
+      color: #a8c6ff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      padding: 8px 14px;
+      border-radius: 15px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      position: relative;
+      user-select: none;
+    }
+
+    .nav a:hover {
+      background-color: rgba(0, 150, 255, 0.6);
+      color: #001f4d;
+      cursor: pointer;
+      box-shadow: 0 0 14px rgba(0, 150, 255, 0.85);
+    }
+
+    .nav a.active {
+      background-color: rgba(0, 150, 255, 0.85);
+      color: #001a4d;
+      box-shadow: 0 0 22px rgba(0, 150, 255, 1);
+      outline: none;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <div id="bgText" class="bg-glow-text msg0">
+    We sell websites with great UI design
+  </div>
+
+  <div class="taskbar">
+    <div class="logo-container">
+      <img src="assets/fronza.png" alt="Fronza Logo" />
+      <div class="logo-text">
+        <span class="fron">Fron</span><span class="za">za</span>
+      </div>
+    </div>
+    <nav class="nav" role="navigation" aria-label="Primary Navigation">
+      <a href="#" class="active">Home</a>
+      <a href="#">Website</a>
+      <a href="#">Coupon</a>
+      <a href="#">Payouts</a>
+      <a href="#">About</a>
+    </nav>
+  </div>
+  
+  <script>
+    const messages = [
+      {
+        text: "We sell websites with great UI design",
+        className: "msg0",
+        bgGradient: "linear-gradient(135deg, #0d1c3f, #21407a, #3566c2)"
+      },
+      {
+        text: "Your dream site, built to impress",
+        className: "msg1",
+        bgGradient: "linear-gradient(135deg, #42275a, #734b6d, #aa647b)"
+      },
+      {
+        text: "Premium quality, expert craftsmanship",
+        className: "msg2",
+        bgGradient: "linear-gradient(135deg, #133b32, #1f6051, #4da17d)"
+      },
+      {
+        text: "Get online now — success starts here",
+        className: "msg3",
+        bgGradient: "linear-gradient(135deg, #5a1f3d, #843f6c, #bf4f8e)"
+      }
+    ];
+
+    const bgText = document.getElementById('bgText');
+    // Set initial background
+    document.body.style.background = messages[0].bgGradient;
+
+    window.addEventListener('scroll', () => {
+      const vh = window.innerHeight;
+      const scrollPos = window.scrollY;
+      const pageIndex = Math.min(Math.floor(scrollPos / vh), messages.length - 1);
+
+      if (bgText.textContent !== messages[pageIndex].text) {
+        // fade out
+        bgText.classList.add('hide');
+        setTimeout(() => {
+          bgText.textContent = messages[pageIndex].text;
+          // Update class for styles (color, size, glow)
+          bgText.className = `bg-glow-text ${messages[pageIndex].className}`;
+          // Change background gradient
+          document.body.style.background = messages[pageIndex].bgGradient;
+          // fade in
+          bgText.classList.remove('hide');
+        }, 400);
+      }
+    });
+  </script>
+  <script src=""></script>
+</body>
+</html>
